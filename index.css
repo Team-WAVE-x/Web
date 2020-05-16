@@ -16,6 +16,11 @@ body {
 
 .mainInfo {
     text-align: center;
+    margin: 10px;
+}
+
+.mainInfo h1, p {
+
 }
 
 .projectInfo {
