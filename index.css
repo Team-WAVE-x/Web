@@ -1,8 +1,30 @@
 body {
-    color: black;
+    background-color: #000;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-.mainInfo {
-    text-align: center;
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
+.mainInfo h1,p{
+    /*div 안에 있는 h1,p 가로 중간 정렬 하고 싶어요..
+    혹시 아시는분?*/
+}
+
+.mainInfo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+} 
