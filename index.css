@@ -14,12 +14,17 @@ body {
     }
 }
 
-.mainInfo h1,p{
-    /*div 안에 있는 h1,p 가로 중간 정렬 하고 싶어요..
-    혹시 아시는분?*/
+.mainInfo {
+    text-align: center;
 }
 
-.mainInfo img{
+.projectInfo {
+    text-align: center;
+}
+
+
+
+#backgroundImg{
     position: absolute;
     top: 0;
     left: 0;
