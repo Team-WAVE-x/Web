@@ -1,2 +1,2 @@
 # Web
-![ex_screenshot](./1.png)  
+![ex_screenshot](./2.png)  
