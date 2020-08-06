@@ -1,2 +1,2 @@
 # Web
-![ex_screenshot](./2.png)  
+![ex_screenshot](/docs/preview.png)

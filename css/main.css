@@ -1,0 +1,31 @@
+/* Noto Sans */
+* {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+/* Font awesome */
+.fab {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+
+/* Ellipes */
+header {
+  padding: 156px 0 100px;
+  opacity: 0.93;
+  clip-path: ellipse(90% 49% at 50% 40%);
+  height:700px;
+  background: url("/images/1.png");
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+/* Spaceing */
+section {
+  padding: 150px 0;
+}
+
+/* Navbar */
+.nav {
+  background-color: #9f9f9f;
+  opacity: 0.93;
+}
