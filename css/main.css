@@ -3,33 +3,81 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #292532;
+    color: #F8F7F9;
+    overflow: hidden;
+}
+
 /* Noto Sans */
 * {
-  font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
 }
 
-/* Font awesome */
-.fab {
-  font-family: "Font Awesome 5 Brands" !important;
-}
-
-/* Ellipes */
 header {
-  padding: 156px 0 100px;
-  opacity: 0.93;
-  clip-path: ellipse(90% 49% at 50% 40%);
-  height: 700px;
-  background: url("/images/1.png");
-  background-repeat : no-repeat;
-  background-size : cover;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+
 }
 
-/* Spaceing */
-section {
-  padding: 150px 0;
+.logo {
+    height: 80px;
+    
 }
 
-/* Navbar */
-.nav {
-  background-color: #9f9f9f91;
+nav {
+    padding-top: 2em;
 }
+
+nav button {
+    border: none;
+    background-color: transparent;
+    color: #F8F7F9;
+    padding-right: 3em;
+    font-size: 1rem;
+}
+
+main {
+    text-align: center;
+    padding-top: 7em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+body {
+    background: #333;
+  }
+  
+  .wrapper {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    overflow: hidden;
+  }
+  
+  .wave {
+    width: 2000px;
+    height: 2025px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -1000px;
+    margin-top: -500px;
+    border-radius: 35%;
+    background: rgba(255, 255, 255, .75);
+    animation: wave 15s infinite linear;
+  }
+  
+  @keyframes wave {
+    from { transform: rotate(0deg);}
+    from { transform: rotate(360deg);}
+  }
+  
